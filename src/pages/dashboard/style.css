@@ -1,0 +1,159 @@
+body{
+   
+    margin: 0;
+    padding: 0;
+   height: 100%;
+}
+.card-total{
+    background-image: url("../../../imagens/fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-flex;
+    height: 100vh;
+    width: 1280px;
+    
+   
+
+
+}
+.logo{
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+   
+
+}
+.boxmenu{
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    background: #062D68;
+    
+
+    
+    
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px ;
+    margin-left: 35px;
+    
+   
+    
+}
+nav ul li {
+    width: 100px;
+    padding: 20px 0px;
+    list-style: none;
+    
+
+}
+nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.25;
+   
+}
+nav a:hover{
+    font-size: 25px;
+}
+.nav-itens{
+   margin: 10px;   
+}
+.add p {
+    font-size: 20px;
+    display: inline-flex;
+    
+
+}
+.add a{
+    text-decoration: none;  
+}
+.add img{
+    width: 20px;
+}
+.card-layout{
+    display:inline-flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    margin-left: 25px;
+}
+.card-item{
+    background: #ffffff;
+    padding: 60px 10px;
+    width: 180px;
+    border-radius: 20px;
+}
+.card-item img{
+    width: 30px;
+    height: 30px;
+}
+.modal-window{
+    position: fixed; 
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+.modal-window:target{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-window > div{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 10px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.modal-close{
+    color: #aaa;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    width: 40px;
+    
+}
+.modal-close img{
+    width: 15px;
+    height: 15px;
+}
+.modal-window input{
+    background: none;
+    outline: none;
+    margin: 10px;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+#descripton{
+    padding: 60px 30px;
+    border-radius: 20px;
+    text-align: center;
+   
+    
+}
+.modal-window button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    outline: none;
+}

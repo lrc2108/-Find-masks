@@ -1,0 +1,89 @@
+body {
+margin:0;
+padding: 0;
+
+
+}
+
+
+.logo{
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+
+}
+.menu{
+    
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    background: #062D68;
+}
+
+.bg{
+    background-image: url("../../../imagens/fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh;
+     
+}
+.card{
+    
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.box{
+    
+    margin-left: 200px; 
+    width: 550px;
+    text-align: center;
+    height: 100vh;
+    
+}
+.box h1{
+    color: #ffffff;
+    margin-top: 120px;
+    font-size: 41px;
+}
+.box input {
+    
+    
+    text-align: center;
+    margin: 10px ;
+    padding: 10px;
+    width: 300px;
+    border-radius: 30px;
+    outline: none;
+    transition: 0.15;
+}
+.box input:focus{
+    padding: 15px;
+    width: 310px;
+   
+}
+.login{
+    text-decoration: none;
+    margin-right: 200px;
+    
+} 
+.box button {
+    border-radius: 30px;
+    outline: none;
+    padding: 5px;
+    transition: 0.25;
+    
+}
+.box button:hover{
+    background: #5FD994;
+    pointer-events: painted;
+}
+
+
+
+  

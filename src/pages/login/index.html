@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css"></link>
+        <title>Login</title>
+    </head>
+        <body>
+            <div class="bg">
+
+           
+            <div class="card-login">
+                
+                <div class="box">
+                    <img class="logo" src="../../../imagens/logo.png">
+                    <form > 
+                    <h1>login</h1>
+                    <input type="email" placeholder="Seu e-mail:">
+                    <input type="password" placeholder="Senha">
+                    <a class="register text" href="../register/page.html">
+                         Registrar
+                     </a>
+                     <a class="forgot text" href="#open-modal">
+                            Esqueceu a senha?
+                    </a>
+
+                    </form>
+                    <button type="submit" onclick="makelogin()">Login</button>
+                </div> 
+                <div class="mensagem">
+                    <h1>
+                        Precisando de máscara e não sabe onde encontrar?<br/>
+                        Faça sua busca abaixo e encontre o lugar mais próximo a você.<br/>
+                        Ou se tem empresa, cadastre-se para ser encontrado pelos clientes.
+                    </h1>
+                <div id="divBusca">
+                 <img src="../../../imagens/search.svg" alt="Buscar..."/>   
+                 <input type="number" id="txtBusca" placeholder="Digite seu CEP..."/>
+                 <button id="btnBusca" onclick="makelogin()">Buscar</button>
+                </div>
+            </div>
+            
+            </div>
+            </div>
+        <!--Modal-forgat password-->
+        <div id="open-modal" class="modal-window">
+            <div>
+        <a href="#" class="modal-close">
+            <img src="../../../imagens/close.svg">
+        </a>
+            <h1>recuperação de senha</h1>
+            <form>
+                <input type="email" placeholder="E-mail" >
+            </form>
+            <div class="row">
+                <button type="submit" onclick="">recuperar</button>
+            </div>
+        </div>
+
+        </div>
+        
+                <script src="script.js"></script>
+        </body>
+      
+
+</html>

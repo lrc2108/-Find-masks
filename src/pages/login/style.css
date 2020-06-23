@@ -1,0 +1,182 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+
+}
+.bg{
+    background-image: url("../../../imagens/fundo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    border-radius: 25px;
+    width: 80px;
+    height: 80px;
+    margin-top: 30px;
+}
+.card-login{
+    display: inline-flex;
+    flex-direction: row;
+    
+}
+
+.box{
+    width: 250px;
+    height: 100vh;
+    text-align: center;
+    background: #062D68;
+}
+.box h1{
+    color: white;
+    
+}
+.box input[type="email"],
+.box input[type="password"]{
+    text-align: center;
+    border-radius: 30px;
+    margin: 5px;
+    outline: none;
+    padding: 5px 5px;
+    width: 200px;
+    color: black;
+    transition: 0.35s;
+}
+.box input[type="email"]:focus,
+.box input[type="password"]:focus{
+    width:210px ;
+}
+.box a{
+    color: white;
+    margin: 5px;
+    transition: 0.35s;
+    
+}
+.box a:hover{
+    font-size: 18px;
+}
+.box button[type="submit"]{
+    margin-top: 20px;
+    border-radius: 30px;
+    padding: 5px 10px;
+    outline: none;
+    transition: 0.60s;
+}
+.box button[type="submit"]:hover{
+    background: yellow;
+}
+.mensagem h1{
+   color: #ffffff;
+   display: flex;
+   text-align: initial;
+   margin-top: 150px;
+    margin-left: 80px;
+    font-size: 42px;
+    
+   
+}
+#divBusca{
+    background-color:#E0EEEE;
+    border:solid 2px #5F9EA0;
+    border-radius:10px;
+    width:508px;
+    height:35px;
+    margin-left: 200px;
+    margin-top: 120px;
+  }
+   
+  #txtBusca{
+    float:center;
+    margin-left: 5px;
+    background-color:transparent;
+    padding-left:5px; 
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:400px;
+    outline: none;
+  }
+   
+  #btnBusca{
+    border:0;
+    height:35px;
+    border-radius:0 7px 7px 0;
+    width:70px;
+    font-weight:bold;
+    background:#5F9EA0;
+    outline: none;
+    padding-top: 5px;
+   
+    
+  }
+   
+  #divBusca img{
+    float:left;
+    margin-top: 5px;
+    width: 20px;
+    margin-left: 2px;
+    
+  }
+
+.modal-window{
+    position: fixed; 
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+.modal-window:target{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal-window > div{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 10px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+
+}
+.modal-close{
+    color: #aaa;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    align-items: center;
+    width: 40px;
+    
+}
+.modal-close img{
+    width: 15px;
+    height: 15px;
+}
+.modal-window input{
+    background: none;
+    outline: none;
+    margin: 10px;
+    color: black;
+    padding: 5px 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+.modal-window button{
+    border-radius: 15px;
+    padding: 5px 10px;
+    outline: none;
+}
+
+

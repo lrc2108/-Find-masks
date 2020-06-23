@@ -1,16 +1,18 @@
-const {app, Browserwindow} =require('electron')
+const electron = require('electron')
+
+require('electron-reload')(__dirname,{
+    electron: require(`${__dirname}/node_modules/electron`)
+})
+
+const {app, BrowserWindow} =require('electron')
 function   createWindow() {
-<<<<<<< HEAD
-    let win = new Browserwindow ({
-=======
     let win =new BrowserWindow ({
->>>>>>> master
         width: 800,
         heigth: 800,
         webPreferences:{
             nodeIntegration: true
         }
     })
-    win.loadFile('index.html')
+    win.loadFile('src/pages/login/index.html')
 }
 app.whenReady().then(createWindow)
